@@ -1,0 +1,62 @@
+/*Overriding md-input*/
+.item-md-label input {
+    background-color: #fff !important;
+    color: #000;
+}
+
+.item-md-label .input-label {
+    padding: 0;
+}
+
+.item-md-label {
+    margin-left: 0px;
+    margin-right: 12px;
+    padding: 0;
+}
+
+/*Overriding positive bar*/
+.bar.bar-positive {
+    border-color: #0B610B;
+    background-color: #0B610B;
+}
+
+/*Login widgets*/
+.login {
+    margin: 5px;
+}
+
+/*Chat widgets*/
+.bottommsg {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+}
+
+.chat-input {
+    padding-bottom: 25px;
+}
+
+.item-input-wrapper {
+    background-color: #fff !important;
+}
+
+.balloon {
+    padding: 3px;
+    margin: 7px;
+    -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.green {
+    background-color: #E1FFC7;
+}
+
+.content {
+    bottom:108px;
+}
+
+.bar.bar-header .button+.title {
+    text-align: center;
+}

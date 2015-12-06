@@ -1,0 +1,12 @@
+<ion-view view-title="Socket.IO Chat Demo">
+    <ion-nav-bar class="bar-positive">
+    </ion-nav-bar>
+    <ion-content>
+        <div class="list login text-center">
+            <ion-md-input placeholder="Identification" highlight-color="balanced" type="text" ng-model="user.identification"></ion-md-input><br />
+            <ion-md-input placeholder="Address" highlight-color="balanced" type="text" ng-model="user.address"></ion-md-input>
+            <ion-md-input placeholder="Port" highlight-color="balanced" type="text" ng-model="user.port"></ion-md-input>
+            <button class="button button-small" ng-click="join()">Connect</button>
+        </div>
+    </ion-content>
+</ion-view>

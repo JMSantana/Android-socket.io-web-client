@@ -28,6 +28,11 @@ angular.module('socketiochat', [
 {
 
     $stateProvider
+    .state('chat', {
+        url: "/chat/?identification&address&port",
+        templateUrl: "templates/chat.html",
+        controller: "ChatController"
+    })
     .state('login', {
         url: "/login",
         templateUrl: "templates/login.html",
@@ -36,4 +41,5 @@ angular.module('socketiochat', [
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/login');
+    $ionicConfigProvider.backButton.text('').icon('ion-chevron-left').previousTitleText(false);
 })
